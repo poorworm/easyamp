@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "tAE0CYCkJCvxAD4Z582Ym0I3NT47btSEkeNe0GXN1VfFMk9AMTaAjHuDA+cYy2moDU6vVKjzCkVBGwgSwKl3Dw==",
+  "success": true,
+  "projectFilePath": "C:\\PRJS\\git\\easyamp\\EasyAMP\\EasyAMP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\null\\.nuget\\packages\\7-zip.commandline\\18.1.0\\7-zip.commandline.18.1.0.nupkg.sha512",
+    "C:\\Users\\null\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\null\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\null\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\null\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\null\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\null\\.nuget\\packages\\system.serviceprocess.servicecontroller\\4.7.0\\system.serviceprocess.servicecontroller.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
