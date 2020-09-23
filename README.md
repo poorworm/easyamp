@@ -19,9 +19,9 @@ http://github.com - automatic!
 
 ## User Guide
 
-## Home Screen
+### Home Screen
 <img src="https://github.com/poorworm/easyamp/blob/master/EasyAMP/images/home_screen.png?raw=true" width="500">
 
-## Virtual Host Add/Remove
+### Virtual Host Add/Remove
 <img src="https://github.com/poorworm/easyamp/blob/master/EasyAMP/images/vhost.png?raw=true" width="300">
 
