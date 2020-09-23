@@ -18,5 +18,5 @@ http://github.com - automatic!
 4. Some anti-virus program might deny the access to the hosts file, and you need to exclusion our EasyAMP.exe from anti-virus software which is risky.
 
 ## User Guide
-
+<img src="https://github.com/poorworm/easyamp/blob/master/EasyAMP/images/home_screen.png?raw=true" width="300">
 
