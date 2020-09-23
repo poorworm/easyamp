@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="images\" />
+    <Folder Include="blob\master\images\" />
   </ItemGroup>
 
 </Project>
