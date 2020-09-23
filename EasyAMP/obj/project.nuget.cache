@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tAE0CYCkJCvxAD4Z582Ym0I3NT47btSEkeNe0GXN1VfFMk9AMTaAjHuDA+cYy2moDU6vVKjzCkVBGwgSwKl3Dw==",
+  "dgSpecHash": "KOBFYduUKJqrLoKdVlknM04e1iWo+XyH3lG+saFEWhEuElvR8ri6ey8IZLdEiU8/s8jEh3TvyBk/imy35S6luQ==",
   "success": true,
-  "projectFilePath": "C:\\PRJS\\git\\easyamp\\EasyAMP\\EasyAMP.csproj",
+  "projectFilePath": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\null\\.nuget\\packages\\7-zip.commandline\\18.1.0\\7-zip.commandline.18.1.0.nupkg.sha512",
     "C:\\Users\\null\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

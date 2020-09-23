@@ -380,11 +380,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRJS\\git\\easyamp\\EasyAMP\\EasyAMP.csproj",
+      "projectUniqueName": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
       "projectName": "EasyAMP",
-      "projectPath": "C:\\PRJS\\git\\easyamp\\EasyAMP\\EasyAMP.csproj",
+      "projectPath": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
       "packagesPath": "C:\\Users\\null\\.nuget\\packages\\",
-      "outputPath": "C:\\PRJS\\git\\easyamp\\EasyAMP\\obj\\",
+      "outputPath": "C:\\PRJS\\easyamp\\EasyAMP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

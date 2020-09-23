@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.txtApacheDir = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btSelApacheDir = new System.Windows.Forms.Button();
@@ -46,6 +47,7 @@
             this.lbIsMysqlAlive = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btToHtdocs = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -195,12 +197,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "MySQL";
             // 
+            // btToHtdocs
+            // 
+            this.btToHtdocs.Location = new System.Drawing.Point(700, 69);
+            this.btToHtdocs.Name = "btToHtdocs";
+            this.btToHtdocs.Size = new System.Drawing.Size(94, 29);
+            this.btToHtdocs.TabIndex = 12;
+            this.btToHtdocs.Text = "到 Htdocs";
+            this.btToHtdocs.UseVisualStyleBackColor = true;
+            this.btToHtdocs.Click += new System.EventHandler(this.btToHtdocs_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(826, 418);
             this.ControlBox = false;
+            this.Controls.Add(this.btToHtdocs);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btExit);
@@ -210,6 +223,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtApacheDir);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Main";
@@ -245,6 +259,7 @@
         private System.Windows.Forms.Label lbIsMysqlAlive;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btToHtdocs;
     }
 }
 

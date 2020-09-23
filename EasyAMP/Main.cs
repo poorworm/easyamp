@@ -267,5 +267,12 @@ namespace EasyAMP
                 Cursor.Current = Cursors.Default;
             }
         }
+
+        private void btToHtdocs_Click(object sender, EventArgs e)
+        {
+            string htdocs_path = this.configObject.xamppPath + @"\htdocs";
+            
+            System.Diagnostics.Process.Start("explorer.exe", htdocs_path);
+        }
     }
 }
