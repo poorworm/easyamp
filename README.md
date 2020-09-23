@@ -11,6 +11,6 @@ This program currently provides the following funtions:
 ## Configuration
 1. First you need to install XAMPP with all default option (this is important).
 2. Start XAMPP with admin privilege.
-![xampp service](EasyAMP/images/xampp_service.png =250x)
+![xampp service](EasyAMP/images/xampp_service.png =250px)
 
 
