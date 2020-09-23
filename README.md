@@ -11,7 +11,6 @@ This program currently provides the following funtions:
 ## Configuration
 1. First you need to install XAMPP with all default option (this is important).
 2. Start XAMPP with admin privilege.
-![xampp service](/images/xampp_service.png)
-Format: ![Alt Text](url)
+![xampp service](images/xampp_service.png)
 
 
