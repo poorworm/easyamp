@@ -13,5 +13,5 @@ This program currently provides the following funtions:
 2. Start XAMPP by running xampp-control.exe in XAMPP directory with admin privilege, and check Apache and MySQL service buttons to install services.
 ![xampp service](EasyAMP/images/xampp_service.png)
 3. Uncheck readonly checkbox in 'C:\Windows\System32\drivers\etc\hosts' file' s file attributes.
-![hostS_file_attributes](EasyAMP/images/hosts_file_attributes.png2)
+![hostS_file_attributes](EasyAMP/images/hosts_file_attributes.png)
 
