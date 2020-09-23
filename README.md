@@ -27,3 +27,8 @@ XAMPP can be downloaded here: https://www.apachefriends.org/zh_tw/download.html
 ### Virtual Host Add/Remove
 <img src="https://github.com/poorworm/easyamp/blob/master/EasyAMP/images/vhost.png?raw=true" width="300">
 
+
+## TODOS
+- [ ] Function to switch between PHP versions
+- [ ] Function to switch between database (MySQL, PostgresSQL, SQLite ... )
+- [ ] Quick open project with PHPStorm, VSCode, Sublime, PphEd ...
