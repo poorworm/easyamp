@@ -1,6 +1,5 @@
 # EasyAMP -- A quick & dirty extended control panel for XAMPP users.
 ## How does it works?
----
 This program currently provides the following funtions:
 - start/stop the Apache & MySQL servers.
 - Create the apache virtual host settings with only one click.
