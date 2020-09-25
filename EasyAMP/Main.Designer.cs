@@ -54,26 +54,29 @@
             // 
             // txtApacheDir
             // 
-            this.txtApacheDir.Location = new System.Drawing.Point(113, 12);
+            this.txtApacheDir.Location = new System.Drawing.Point(88, 9);
+            this.txtApacheDir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtApacheDir.Name = "txtApacheDir";
             this.txtApacheDir.ReadOnly = true;
-            this.txtApacheDir.Size = new System.Drawing.Size(525, 27);
+            this.txtApacheDir.Size = new System.Drawing.Size(409, 23);
             this.txtApacheDir.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Location = new System.Drawing.Point(9, 16);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 19);
+            this.label1.Size = new System.Drawing.Size(71, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "XAMPP Dir:";
             // 
             // btSelApacheDir
             // 
-            this.btSelApacheDir.Location = new System.Drawing.Point(650, 12);
+            this.btSelApacheDir.Location = new System.Drawing.Point(506, 9);
+            this.btSelApacheDir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btSelApacheDir.Name = "btSelApacheDir";
-            this.btSelApacheDir.Size = new System.Drawing.Size(94, 29);
+            this.btSelApacheDir.Size = new System.Drawing.Size(73, 23);
             this.btSelApacheDir.TabIndex = 2;
             this.btSelApacheDir.Text = "...";
             this.btSelApacheDir.UseVisualStyleBackColor = true;
@@ -81,9 +84,10 @@
             // 
             // btStartStop
             // 
-            this.btStartStop.Location = new System.Drawing.Point(21, 45);
+            this.btStartStop.Location = new System.Drawing.Point(16, 36);
+            this.btStartStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btStartStop.Name = "btStartStop";
-            this.btStartStop.Size = new System.Drawing.Size(94, 29);
+            this.btStartStop.Size = new System.Drawing.Size(73, 23);
             this.btStartStop.TabIndex = 3;
             this.btStartStop.Text = "啟動";
             this.btStartStop.UseVisualStyleBackColor = true;
@@ -98,17 +102,19 @@
             // lbIsApacheAlive
             // 
             this.lbIsApacheAlive.AutoSize = true;
-            this.lbIsApacheAlive.Location = new System.Drawing.Point(140, 50);
+            this.lbIsApacheAlive.Location = new System.Drawing.Point(109, 39);
+            this.lbIsApacheAlive.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbIsApacheAlive.Name = "lbIsApacheAlive";
-            this.lbIsApacheAlive.Size = new System.Drawing.Size(49, 19);
+            this.lbIsApacheAlive.Size = new System.Drawing.Size(39, 15);
             this.lbIsApacheAlive.TabIndex = 4;
             this.lbIsApacheAlive.Text = "####";
             // 
             // btEditHosts
             // 
-            this.btEditHosts.Location = new System.Drawing.Point(544, 69);
+            this.btEditHosts.Location = new System.Drawing.Point(423, 54);
+            this.btEditHosts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btEditHosts.Name = "btEditHosts";
-            this.btEditHosts.Size = new System.Drawing.Size(94, 29);
+            this.btEditHosts.Size = new System.Drawing.Size(73, 23);
             this.btEditHosts.TabIndex = 5;
             this.btEditHosts.Text = "編輯 Hosts 檔";
             this.btEditHosts.UseVisualStyleBackColor = true;
@@ -123,9 +129,10 @@
             this.lvHosts.FullRowSelect = true;
             this.lvHosts.GridLines = true;
             this.lvHosts.HideSelection = false;
-            this.lvHosts.Location = new System.Drawing.Point(25, 69);
+            this.lvHosts.Location = new System.Drawing.Point(19, 54);
+            this.lvHosts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lvHosts.Name = "lvHosts";
-            this.lvHosts.Size = new System.Drawing.Size(492, 324);
+            this.lvHosts.Size = new System.Drawing.Size(384, 257);
             this.lvHosts.TabIndex = 7;
             this.lvHosts.UseCompatibleStateImageBehavior = false;
             this.lvHosts.View = System.Windows.Forms.View.Details;
@@ -148,9 +155,10 @@
             // 
             // btExit
             // 
-            this.btExit.Location = new System.Drawing.Point(700, 364);
+            this.btExit.Location = new System.Drawing.Point(544, 287);
+            this.btExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btExit.Name = "btExit";
-            this.btExit.Size = new System.Drawing.Size(94, 29);
+            this.btExit.Size = new System.Drawing.Size(73, 23);
             this.btExit.TabIndex = 8;
             this.btExit.Text = "關閉";
             this.btExit.UseVisualStyleBackColor = true;
@@ -158,9 +166,10 @@
             // 
             // btStartStopMySql
             // 
-            this.btStartStopMySql.Location = new System.Drawing.Point(21, 33);
+            this.btStartStopMySql.Location = new System.Drawing.Point(16, 26);
+            this.btStartStopMySql.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btStartStopMySql.Name = "btStartStopMySql";
-            this.btStartStopMySql.Size = new System.Drawing.Size(94, 29);
+            this.btStartStopMySql.Size = new System.Drawing.Size(73, 23);
             this.btStartStopMySql.TabIndex = 9;
             this.btStartStopMySql.Text = "啟動";
             this.btStartStopMySql.UseVisualStyleBackColor = true;
@@ -169,9 +178,10 @@
             // lbIsMysqlAlive
             // 
             this.lbIsMysqlAlive.AutoSize = true;
-            this.lbIsMysqlAlive.Location = new System.Drawing.Point(134, 38);
+            this.lbIsMysqlAlive.Location = new System.Drawing.Point(104, 30);
+            this.lbIsMysqlAlive.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbIsMysqlAlive.Name = "lbIsMysqlAlive";
-            this.lbIsMysqlAlive.Size = new System.Drawing.Size(49, 19);
+            this.lbIsMysqlAlive.Size = new System.Drawing.Size(39, 15);
             this.lbIsMysqlAlive.TabIndex = 4;
             this.lbIsMysqlAlive.Text = "####";
             // 
@@ -179,9 +189,11 @@
             // 
             this.groupBox1.Controls.Add(this.btStartStop);
             this.groupBox1.Controls.Add(this.lbIsApacheAlive);
-            this.groupBox1.Location = new System.Drawing.Point(544, 124);
+            this.groupBox1.Location = new System.Drawing.Point(423, 98);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(250, 109);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(194, 86);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Apache Server";
@@ -190,18 +202,21 @@
             // 
             this.groupBox2.Controls.Add(this.btStartStopMySql);
             this.groupBox2.Controls.Add(this.lbIsMysqlAlive);
-            this.groupBox2.Location = new System.Drawing.Point(544, 250);
+            this.groupBox2.Location = new System.Drawing.Point(423, 197);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(250, 97);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(194, 77);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "MySQL";
             // 
             // btToHtdocs
             // 
-            this.btToHtdocs.Location = new System.Drawing.Point(700, 69);
+            this.btToHtdocs.Location = new System.Drawing.Point(544, 54);
+            this.btToHtdocs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btToHtdocs.Name = "btToHtdocs";
-            this.btToHtdocs.Size = new System.Drawing.Size(94, 29);
+            this.btToHtdocs.Size = new System.Drawing.Size(73, 23);
             this.btToHtdocs.TabIndex = 12;
             this.btToHtdocs.Text = "到 Htdocs";
             this.btToHtdocs.UseVisualStyleBackColor = true;
@@ -209,9 +224,9 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 418);
+            this.ClientSize = new System.Drawing.Size(642, 370);
             this.ControlBox = false;
             this.Controls.Add(this.btToHtdocs);
             this.Controls.Add(this.groupBox2);
@@ -224,6 +239,7 @@
             this.Controls.Add(this.txtApacheDir);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Main";
