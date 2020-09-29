@@ -1,5 +1,8 @@
 ﻿using EasyAMP.Utils;
+using MySql.Data.MySqlClient;
 using System;
+using System.Data;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
@@ -159,6 +162,8 @@ namespace EasyAMP
 
             if (this.lvHosts.SelectedItems.Count > 0)
             {
+                this.txtDb.Text = this.lvHosts.SelectedItems[0].Text;
+
                 this.btn_show.Location = new Point(this.lvHosts.SelectedItems[0].SubItems[2].Bounds.Left, this.lvHosts.SelectedItems[0].SubItems[2].Bounds.Top);
                 this.btn_show.Visible = true;
 
@@ -273,6 +278,35 @@ namespace EasyAMP
             string htdocs_path = this.configObject.xamppPath + @"\htdocs";
             
             System.Diagnostics.Process.Start("explorer.exe", htdocs_path);
+        }
+
+        private void btSetMySqlSettings_Click(object sender, EventArgs e)
+        {
+
+            string ret_str = SqlDb.SetSql(this.txtAccount.Text, this.txtPassword.Text, this.txtDb.Text);
+            SqlDb.UpdateEnvFileDb(this.configObject, Utils.DbType.mysql, this.txtDb.Text);            
+            MessageBox.Show(ret_str);
+        }
+
+        private void btSelSqlFile_Click(object sender, EventArgs e)
+        {
+            if(this.ofSelSqlFile.ShowDialog() == DialogResult.OK)
+            {
+                this.txtSqlFile.Text = this.ofSelSqlFile.FileName;
+            }
+        }
+
+        private void btExecute_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlDb.ExecuteSqlFile(this.txtAccount.Text, this.txtPassword.Text, this.txtDb.Text, this.txtSqlFile.Text);
+                MessageBox.Show("執行 sql 檔完成。");
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("執行 sql 檔過程發生錯誤。");
+            }
         }
     }
 }

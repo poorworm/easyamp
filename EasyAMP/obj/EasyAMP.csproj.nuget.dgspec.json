@@ -45,6 +45,14 @@
               "target": "Package",
               "version": "[18.1.0, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
             "System.ServiceProcess.ServiceController": {
               "target": "Package",
               "version": "[4.7.0, )"

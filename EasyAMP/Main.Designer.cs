@@ -48,8 +48,22 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btToHtdocs = new System.Windows.Forms.Button();
+            this.btSetMySqlSettings = new System.Windows.Forms.Button();
+            this.txtAccount = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btSelSqlFile = new System.Windows.Forms.Button();
+            this.btExecute = new System.Windows.Forms.Button();
+            this.txtSqlFile = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtDb = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.ofSelSqlFile = new System.Windows.Forms.OpenFileDialog();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtApacheDir
@@ -148,9 +162,10 @@
             // 
             // btExit
             // 
-            this.btExit.Location = new System.Drawing.Point(700, 364);
+            this.btExit.Font = new System.Drawing.Font("Microsoft JhengHei UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btExit.Location = new System.Drawing.Point(843, 12);
             this.btExit.Name = "btExit";
-            this.btExit.Size = new System.Drawing.Size(94, 29);
+            this.btExit.Size = new System.Drawing.Size(292, 98);
             this.btExit.TabIndex = 8;
             this.btExit.Text = "關閉";
             this.btExit.UseVisualStyleBackColor = true;
@@ -207,12 +222,133 @@
             this.btToHtdocs.UseVisualStyleBackColor = true;
             this.btToHtdocs.Click += new System.EventHandler(this.btToHtdocs_Click);
             // 
+            // btSetMySqlSettings
+            // 
+            this.btSetMySqlSettings.Location = new System.Drawing.Point(149, 191);
+            this.btSetMySqlSettings.Name = "btSetMySqlSettings";
+            this.btSetMySqlSettings.Size = new System.Drawing.Size(111, 29);
+            this.btSetMySqlSettings.TabIndex = 13;
+            this.btSetMySqlSettings.Text = "設定";
+            this.btSetMySqlSettings.UseVisualStyleBackColor = true;
+            this.btSetMySqlSettings.Click += new System.EventHandler(this.btSetMySqlSettings_Click);
+            // 
+            // txtAccount
+            // 
+            this.txtAccount.Location = new System.Drawing.Point(110, 44);
+            this.txtAccount.Name = "txtAccount";
+            this.txtAccount.ReadOnly = true;
+            this.txtAccount.Size = new System.Drawing.Size(167, 27);
+            this.txtAccount.TabIndex = 14;
+            this.txtAccount.Text = "root";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.btSelSqlFile);
+            this.groupBox3.Controls.Add(this.btExecute);
+            this.groupBox3.Controls.Add(this.txtSqlFile);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.txtDb);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.txtPassword);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.btSetMySqlSettings);
+            this.groupBox3.Controls.Add(this.txtAccount);
+            this.groupBox3.Location = new System.Drawing.Point(25, 399);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(907, 241);
+            this.groupBox3.TabIndex = 15;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "MySQL 設定";
+            // 
+            // btSelSqlFile
+            // 
+            this.btSelSqlFile.Location = new System.Drawing.Point(732, 39);
+            this.btSelSqlFile.Name = "btSelSqlFile";
+            this.btSelSqlFile.Size = new System.Drawing.Size(59, 29);
+            this.btSelSqlFile.TabIndex = 21;
+            this.btSelSqlFile.Text = "...";
+            this.btSelSqlFile.UseVisualStyleBackColor = true;
+            this.btSelSqlFile.Click += new System.EventHandler(this.btSelSqlFile_Click);
+            // 
+            // btExecute
+            // 
+            this.btExecute.Location = new System.Drawing.Point(797, 39);
+            this.btExecute.Name = "btExecute";
+            this.btExecute.Size = new System.Drawing.Size(85, 29);
+            this.btExecute.TabIndex = 20;
+            this.btExecute.Text = "執行";
+            this.btExecute.UseVisualStyleBackColor = true;
+            this.btExecute.Click += new System.EventHandler(this.btExecute_Click);
+            // 
+            // txtSqlFile
+            // 
+            this.txtSqlFile.Location = new System.Drawing.Point(384, 41);
+            this.txtSqlFile.Name = "txtSqlFile";
+            this.txtSqlFile.Size = new System.Drawing.Size(342, 27);
+            this.txtSqlFile.TabIndex = 19;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(315, 41);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(52, 19);
+            this.label5.TabIndex = 18;
+            this.label5.Text = ".sql 檔";
+            // 
+            // txtDb
+            // 
+            this.txtDb.Location = new System.Drawing.Point(110, 144);
+            this.txtDb.Name = "txtDb";
+            this.txtDb.Size = new System.Drawing.Size(167, 27);
+            this.txtDb.TabIndex = 17;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(25, 147);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 19);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "資料庫：";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(110, 91);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(167, 27);
+            this.txtPassword.TabIndex = 17;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(25, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 19);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "密碼：";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(25, 47);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(54, 19);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "帳號：";
+            // 
+            // ofSelSqlFile
+            // 
+            this.ofSelSqlFile.FileName = "openFileDialog1";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 418);
+            this.ClientSize = new System.Drawing.Size(1162, 675);
             this.ControlBox = false;
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btToHtdocs);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -235,6 +371,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,6 +398,19 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btToHtdocs;
+        private System.Windows.Forms.Button btSetMySqlSettings;
+        private System.Windows.Forms.TextBox txtAccount;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox txtDb;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtSqlFile;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btExecute;
+        private System.Windows.Forms.Button btSelSqlFile;
+        private System.Windows.Forms.OpenFileDialog ofSelSqlFile;
     }
 }
 
