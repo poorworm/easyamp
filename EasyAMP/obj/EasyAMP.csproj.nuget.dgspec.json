@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj": {}
+    "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj": {}
   },
   "projects": {
-    "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj": {
+    "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
+        "projectUniqueName": "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj",
         "projectName": "EasyAMP",
-        "projectPath": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
+        "projectPath": "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj",
         "packagesPath": "C:\\Users\\null\\.nuget\\packages\\",
-        "outputPath": "C:\\PRJS\\easyamp\\EasyAMP\\obj\\",
+        "outputPath": "C:\\PRJS\\EasyMap\\EasyAMP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\null\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
