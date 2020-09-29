@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v3.1": {
       "EasyAMP/1.0.0": {
         "dependencies": {
-          "7-Zip.CommandLine": "18.1.0",
           "MySql.Data": "8.0.21",
           "System.Data.SqlClient": "4.8.2",
           "System.ServiceProcess.ServiceController": "4.7.0"
@@ -17,7 +16,6 @@
           "EasyAMP.dll": {}
         }
       },
-      "7-Zip.CommandLine/18.1.0": {},
       "BouncyCastle.NetCore/1.8.3": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -1077,13 +1075,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "7-Zip.CommandLine/18.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-jHUxQQLmjSsjR9WS+OPrBYEuHrtSXey6xHIjFjN1Px1MoxyOaIGjYUSo2iayVxMFs64/TiuF/EopCu2mPRoTuA==",
-      "path": "7-zip.commandline/18.1.0",
-      "hashPath": "7-zip.commandline.18.1.0.nupkg.sha512"
     },
     "BouncyCastle.NetCore/1.8.3": {
       "type": "package",

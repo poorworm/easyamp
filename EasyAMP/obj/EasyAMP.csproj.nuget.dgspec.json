@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj": {}
+    "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj": {}
   },
   "projects": {
-    "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj": {
+    "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj",
+        "projectUniqueName": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
         "projectName": "EasyAMP",
-        "projectPath": "C:\\PRJS\\EasyMap\\EasyAMP\\EasyAMP.csproj",
+        "projectPath": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
         "packagesPath": "C:\\Users\\null\\.nuget\\packages\\",
-        "outputPath": "C:\\PRJS\\EasyMap\\EasyAMP\\obj\\",
+        "outputPath": "C:\\PRJS\\easyamp\\EasyAMP\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\null\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -38,10 +41,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "7-Zip.CommandLine": {
-              "target": "Package",
-              "version": "[18.1.0, )"
-            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.21, )"

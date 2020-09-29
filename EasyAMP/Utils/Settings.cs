@@ -77,11 +77,19 @@ namespace EasyAMP.Utils
                             System.IO.File.Copy("pi.php", configObject.xamppPath + "\\htdocs\\" + host.host + "\\pi.php");
                         }
                     }
-
-
                 }
                 w.Flush();
             }
+        }
+
+        public static void SetPhpStormPrjFile(ConfigObject configObject, string prj_name)
+        {
+            string xml_path = string.Format("{0}\\htdocs\\{1}\\.idea\\workspace.xml", configObject.xamppPath, prj_name);
+
+            string all_str = System.IO.File.ReadAllText(xml_path);
+            all_str = all_str.Replace("demo", prj_name);
+
+            System.IO.File.WriteAllText(xml_path, all_str);
         }
     }
 }

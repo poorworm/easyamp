@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "yvTGZOGSocCCzK1fPl15DroJAmC/a5I1YKBwojlXgyQW70Flk9+CSjK23ru9+EtHsDQu+rO9404lsmnQMCSOJA==",
+  "dgSpecHash": "ogjLJK56dJ+5EanWO3pqEE+H1yOPR7lViUWHPZBzEh8yoFlm3gaPb3fTA35pajw5TAxoJ6EPb7zhjDhLUEcM3Q==",
   "success": true,
   "projectFilePath": "C:\\PRJS\\easyamp\\EasyAMP\\EasyAMP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\null\\.nuget\\packages\\7-zip.commandline\\18.1.0\\7-zip.commandline.18.1.0.nupkg.sha512",
     "C:\\Users\\null\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\null\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
     "C:\\Users\\null\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",

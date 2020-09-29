@@ -59,3 +59,5 @@ C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
 C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
 C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 C:\PRJS\easyamp\EasyAMP\obj\Debug\netcoreapp3.1\EasyAMP.csproj.CoreCompileInputs.cache
+C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\7za.exe
+C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\demo_pure.zip

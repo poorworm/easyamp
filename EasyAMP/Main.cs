@@ -204,9 +204,16 @@ namespace EasyAMP
                 string host = this.lvHosts.SelectedItems[0].SubItems[0].Text;
 
                 Directory.Move(this.configObject.xamppPath + "\\htdocs\\" + host, configObject.xamppPath + "\\htdocs\\" + host + "_bak_" + DateTime.Now.Ticks.ToString());
-
-                ZipFile.ExtractToDirectory("demo.zip", this.configObject.xamppPath + "\\htdocs\\" + host);
                 
+                Process process = new Process();
+                process.StartInfo.FileName = @"7za.exe";
+                process.StartInfo.Arguments = @"x -o" + this.configObject.xamppPath + "\\htdocs\\" + host + " demo.zip";
+                process.Start();
+
+                process.WaitForExit();
+                // PhpStorm
+                Settings.SetPhpStormPrjFile(this.configObject, host);
+
                 MessageBox.Show("複製完成");
             }
             catch(Exception ex)
