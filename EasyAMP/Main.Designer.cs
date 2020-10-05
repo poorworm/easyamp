@@ -128,7 +128,7 @@
             this.btEditHosts.Name = "btEditHosts";
             this.btEditHosts.Size = new System.Drawing.Size(94, 29);
             this.btEditHosts.TabIndex = 5;
-            this.btEditHosts.Text = "編輯 Hosts 檔";
+            this.btEditHosts.Text = "【1】編輯 Hosts 檔";
             this.btEditHosts.UseVisualStyleBackColor = true;
             this.btEditHosts.Click += new System.EventHandler(this.btEditHosts_Click);
             // 
@@ -228,11 +228,11 @@
             // 
             // btSetMySqlSettings
             // 
-            this.btSetMySqlSettings.Location = new System.Drawing.Point(149, 191);
+            this.btSetMySqlSettings.Location = new System.Drawing.Point(110, 189);
             this.btSetMySqlSettings.Name = "btSetMySqlSettings";
-            this.btSetMySqlSettings.Size = new System.Drawing.Size(111, 29);
+            this.btSetMySqlSettings.Size = new System.Drawing.Size(167, 29);
             this.btSetMySqlSettings.TabIndex = 13;
-            this.btSetMySqlSettings.Text = "設定";
+            this.btSetMySqlSettings.Text = "【3】設定";
             this.btSetMySqlSettings.UseVisualStyleBackColor = true;
             this.btSetMySqlSettings.Click += new System.EventHandler(this.btSetMySqlSettings_Click);
             // 
@@ -262,28 +262,28 @@
             this.groupBox3.Controls.Add(this.txtAccount);
             this.groupBox3.Location = new System.Drawing.Point(25, 399);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(907, 241);
+            this.groupBox3.Size = new System.Drawing.Size(1006, 241);
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "MySQL 設定";
             // 
             // btMigrate
             // 
-            this.btMigrate.Location = new System.Drawing.Point(282, 191);
+            this.btMigrate.Location = new System.Drawing.Point(333, 105);
             this.btMigrate.Name = "btMigrate";
-            this.btMigrate.Size = new System.Drawing.Size(94, 29);
+            this.btMigrate.Size = new System.Drawing.Size(200, 29);
             this.btMigrate.TabIndex = 23;
-            this.btMigrate.Text = "Migrate";
+            this.btMigrate.Text = "【5】Migrate";
             this.btMigrate.UseVisualStyleBackColor = true;
             this.btMigrate.Click += new System.EventHandler(this.btMigrate_Click);
             // 
             // btGenModels
             // 
-            this.btGenModels.Location = new System.Drawing.Point(395, 191);
+            this.btGenModels.Location = new System.Drawing.Point(333, 161);
             this.btGenModels.Name = "btGenModels";
-            this.btGenModels.Size = new System.Drawing.Size(149, 29);
+            this.btGenModels.Size = new System.Drawing.Size(200, 29);
             this.btGenModels.TabIndex = 22;
-            this.btGenModels.Text = "產生 Models";
+            this.btGenModels.Text = "【6】產生 Models";
             this.btGenModels.UseVisualStyleBackColor = true;
             this.btGenModels.Click += new System.EventHandler(this.btGenModels_Click);
             // 
@@ -301,9 +301,9 @@
             // 
             this.btExecute.Location = new System.Drawing.Point(797, 39);
             this.btExecute.Name = "btExecute";
-            this.btExecute.Size = new System.Drawing.Size(85, 29);
+            this.btExecute.Size = new System.Drawing.Size(162, 29);
             this.btExecute.TabIndex = 20;
-            this.btExecute.Text = "執行";
+            this.btExecute.Text = "【4】執行";
             this.btExecute.UseVisualStyleBackColor = true;
             this.btExecute.Click += new System.EventHandler(this.btExecute_Click);
             // 
