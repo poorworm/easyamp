@@ -51,6 +51,7 @@
             this.btSetMySqlSettings = new System.Windows.Forms.Button();
             this.txtAccount = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btMigrate = new System.Windows.Forms.Button();
             this.btGenModels = new System.Windows.Forms.Button();
             this.btSelSqlFile = new System.Windows.Forms.Button();
             this.btExecute = new System.Windows.Forms.Button();
@@ -246,6 +247,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btMigrate);
             this.groupBox3.Controls.Add(this.btGenModels);
             this.groupBox3.Controls.Add(this.btSelSqlFile);
             this.groupBox3.Controls.Add(this.btExecute);
@@ -265,11 +267,21 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "MySQL 設定";
             // 
+            // btMigrate
+            // 
+            this.btMigrate.Location = new System.Drawing.Point(282, 191);
+            this.btMigrate.Name = "btMigrate";
+            this.btMigrate.Size = new System.Drawing.Size(94, 29);
+            this.btMigrate.TabIndex = 23;
+            this.btMigrate.Text = "Migrate";
+            this.btMigrate.UseVisualStyleBackColor = true;
+            this.btMigrate.Click += new System.EventHandler(this.btMigrate_Click);
+            // 
             // btGenModels
             // 
-            this.btGenModels.Location = new System.Drawing.Point(273, 191);
+            this.btGenModels.Location = new System.Drawing.Point(395, 191);
             this.btGenModels.Name = "btGenModels";
-            this.btGenModels.Size = new System.Drawing.Size(94, 29);
+            this.btGenModels.Size = new System.Drawing.Size(149, 29);
             this.btGenModels.TabIndex = 22;
             this.btGenModels.Text = "產生 Models";
             this.btGenModels.UseVisualStyleBackColor = true;
@@ -438,6 +450,7 @@
         private System.Windows.Forms.OpenFileDialog ofSelSqlFile;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btGenModels;
+        private System.Windows.Forms.Button btMigrate;
     }
 }
 
