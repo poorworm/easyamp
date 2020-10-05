@@ -315,5 +315,34 @@ namespace EasyAMP
                 MessageBox.Show("執行 sql 檔過程發生錯誤。");
             }
         }
+
+        private void btGenModels_Click(object sender, EventArgs e)
+        {
+            Cursor.Current = Cursors.WaitCursor;
+
+            string db_name = this.txtDb.Text;
+            string root_path = this.configObject.xamppPath + "\\htdocs\\" + db_name;
+            var startInfo = new ProcessStartInfo();
+
+            try
+            {
+                startInfo.WorkingDirectory = root_path;
+                startInfo.FileName = @"PHP.exe";
+                startInfo.Arguments = "artisan code:models";
+                startInfo.CreateNoWindow = true;
+                Process myProcess = Process.Start(startInfo);
+                MessageBox.Show("產生 Models 成功!!");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("產生 Models 失敗!!");
+            }
+            finally
+            {
+                Cursor.Current = Cursors.Default;
+            }
+
+            
+        }
     }
 }

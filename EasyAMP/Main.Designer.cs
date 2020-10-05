@@ -51,6 +51,7 @@
             this.btSetMySqlSettings = new System.Windows.Forms.Button();
             this.txtAccount = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btGenModels = new System.Windows.Forms.Button();
             this.btSelSqlFile = new System.Windows.Forms.Button();
             this.btExecute = new System.Windows.Forms.Button();
             this.txtSqlFile = new System.Windows.Forms.TextBox();
@@ -245,6 +246,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btGenModels);
             this.groupBox3.Controls.Add(this.btSelSqlFile);
             this.groupBox3.Controls.Add(this.btExecute);
             this.groupBox3.Controls.Add(this.txtSqlFile);
@@ -262,6 +264,16 @@
             this.groupBox3.TabIndex = 15;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "MySQL 設定";
+            // 
+            // btGenModels
+            // 
+            this.btGenModels.Location = new System.Drawing.Point(273, 191);
+            this.btGenModels.Name = "btGenModels";
+            this.btGenModels.Size = new System.Drawing.Size(94, 29);
+            this.btGenModels.TabIndex = 22;
+            this.btGenModels.Text = "產生 Models";
+            this.btGenModels.UseVisualStyleBackColor = true;
+            this.btGenModels.Click += new System.EventHandler(this.btGenModels_Click);
             // 
             // btSelSqlFile
             // 
@@ -425,6 +437,7 @@
         private System.Windows.Forms.Button btSelSqlFile;
         private System.Windows.Forms.OpenFileDialog ofSelSqlFile;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btGenModels;
     }
 }
 

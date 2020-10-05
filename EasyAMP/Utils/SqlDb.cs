@@ -31,7 +31,7 @@ namespace EasyAMP.Utils
                     var row = dbs.Rows[i];
 
                     string dbn = (string)row[1];
-                    if (dbn == db_name)
+                    if (dbn.Equals(db_name, StringComparison.OrdinalIgnoreCase))
                     {
                         is_exist = true;
                     }
