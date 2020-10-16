@@ -61,3 +61,5 @@ C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\EasyAMP.runtimeconfig.dev.json
 C:\PRJS\easyamp\EasyAMP\bin\Debug\netcoreapp3.1\EasyAMP.pdb
 C:\PRJS\easyamp\EasyAMP\obj\Debug\netcoreapp3.1\EasyAMP.genruntimeconfig.cache
 C:\PRJS\easyamp\EasyAMP\obj\Debug\netcoreapp3.1\EasyAMP.Properties.Resources.resources
+C:\PRJS\easyamp\EasyAMP\obj\Debug\netcoreapp3.1\EasyAMP.csprojAssemblyReference.cache
+C:\PRJS\easyamp\EasyAMP\obj\Debug\netcoreapp3.1\EasyAMP.FrmPwd.resources

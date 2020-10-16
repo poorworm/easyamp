@@ -212,7 +212,7 @@ namespace EasyAMP
 
                 process.WaitForExit();
                 // PhpStorm
-                Settings.SetPhpStormPrjFile(this.configObject, host);
+                // Settings.SetPhpStormPrjFile(this.configObject, host);
 
                 MessageBox.Show("複製完成");
             }
